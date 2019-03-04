@@ -14,7 +14,7 @@ services:
             - x_data:/data
         restart: always
         ports:
-            - 80:80
+            - 80:10000
 
 volumes:
     x_data: {}
